@@ -1,0 +1,17 @@
+[project]
+name = "app-wagtail"
+version = "0.1.0"
+description = "A Wagtail app template with CI/CD and best practices."
+readme = "README.md"
+authors = [
+    { name = "Yousef Abu Shanab", email = "93343012+youzarsiph@users.noreply.github.com" },
+]
+requires-python = ">=3.13"
+dependencies = ["django>=6.0.2", "wagtail>=7.3"]
+
+[build-system]
+requires = ["uv_build>=0.9.24,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["django-debug-toolbar>=6.2.0", "ruff>=0.15.0"]
