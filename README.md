@@ -1,6 +1,6 @@
-# app-wagtail
+# wagtail-allauth
 
-[![CD](https://github.com/the-house-of-wisdom/app-wagtail/actions/workflows/cd.yml/badge.svg?event=workflow_run)](https://github.com/the-house-of-wisdom/app-wagtail/actions/workflows/cd.yml)
-[![CD](https://github.com/the-house-of-wisdom/app-wagtail/actions/workflows/ci.yml/badge.svg?event=workflow_run)](https://github.com/the-house-of-wisdom/app-wagtail/actions/workflows/ci.yml)
+[![CD](https://github.com/youzarsiph/wagtail-allauth/actions/workflows/cd.yml/badge.svg?event=workflow_run)](https://github.com/youzarsiph/wagtail-allauth/actions/workflows/cd.yml)
+[![CD](https://github.com/youzarsiph/wagtail-allauth/actions/workflows/ci.yml/badge.svg?event=workflow_run)](https://github.com/youzarsiph/wagtail-allauth/actions/workflows/ci.yml)
 
-A Wagtail CMS app template with CI/CD and best practices.
+Allauth integration for Wagtail CMS.

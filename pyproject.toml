@@ -1,16 +1,16 @@
 [project]
-name = "app-wagtail"
+name = "wagtail-allauth"
 version = "0.1.0"
-description = "A Wagtail app template with CI/CD and best practices."
+description = "Allauth integration for Wagtail CMS."
 readme = "README.md"
 authors = [
     { name = "Yousef Abu Shanab", email = "93343012+youzarsiph@users.noreply.github.com" },
 ]
 requires-python = ">=3.13"
-dependencies = ["django>=6.0.2", "wagtail>=7.3"]
+dependencies = ["django>=6.0.2", "django-allauth>=65.15.1", "wagtail>=7.3.1"]
 
 [build-system]
-requires = ["uv_build>=0.9.24,<0.11.0"]
+requires = ["uv_build>=0.11.0,<0.12.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
